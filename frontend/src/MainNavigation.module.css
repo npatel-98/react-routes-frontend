@@ -1,0 +1,25 @@
+.itemsWrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+.items{
+    margin: 0 2rem;
+}
+.items:active, .items:hover{
+    transform: scale(1.1);
+    color: forestgreen;
+} 
+ul.list{
+    display: flex;  
+} 
+li a{
+    color: yellow;
+    margin: 0 16px;
+}
+.header{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 2rem;
+}
